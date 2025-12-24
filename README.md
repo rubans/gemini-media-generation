@@ -32,14 +32,19 @@ LOG_LEVEL=INFO
 LOG_FILE=gemini_media_gen.log
 ```
 
-## Running the Server
+## Install the Extension
 
-Install dependencies:
 ```bash
-pip install fastmcp google-genai python-dotenv
+gemini extensions install https://github.com/rubans/gemini-media-generation.git
 ```
 
-Run the server:
-```bash
-python mcp/servers/gemini_media_gen.py
+## Usage
+
+### `nanobanana_generate`
+```
+Generate an image of a bouncing tennis ball
+```
+### `veo_generate_video`
+```
+Generate a video of a bouncing tennis ball  
 ```
