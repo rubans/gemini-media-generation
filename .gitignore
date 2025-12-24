@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+env/
+.env
+
+# Logs
+*.log
+
+# Media
+*.png
+*.jpg
+*.jpeg
+*.mp4

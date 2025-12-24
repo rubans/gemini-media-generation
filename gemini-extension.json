@@ -1,0 +1,10 @@
+{
+  "name": "gemini-media-generation",
+  "version": "1.0.0",
+  "mcpServers": {
+    "geminiMediaServer": {
+      "command": "bash",
+      "args": ["${extensionPath}${/}run.sh"]
+    }
+  }
+}
