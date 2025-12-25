@@ -1,9 +1,17 @@
 {
   "name": "gemini-media-generation",
+  "description": "Gemini CLI extension for media generation",
   "version": "1.0.0",
   "mcpServers": {
     "geminiMediaServer": {
-      "command": "${extensionPath}${/}run.cmd"
+      "command": "bash",
+      "args": [
+        "${extensionPath}${/}run.sh"
+      ],
+      "windows": {
+        "command": "${extensionPath}${/}run.cmd",
+        "args": []
+      }
     }
   }
 }
