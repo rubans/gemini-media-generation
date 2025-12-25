@@ -4,14 +4,7 @@
   "version": "1.0.0",
   "mcpServers": {
     "geminiMediaServer": {
-      "command": "bash",
-      "args": [
-        "${extensionPath}${/}run.sh"
-      ],
-      "windows": {
-        "command": "${extensionPath}${/}run.cmd",
-        "args": []
-      }
+      "command": "${extensionPath}${/}run.cmd"
     }
   }
 }
