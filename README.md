@@ -48,3 +48,13 @@ Generate an image of a bouncing tennis ball
 ```
 Generate a video of a bouncing tennis ball  
 ```
+
+## Running MCP Server
+Add MCP Server
+```
+gemini mcp add "Gemini Media MCP" uv run --with fastmcp --with-requirements mcp\\requirements.txt fastmcp run mcp\\servers\\gemini_media_gen.py
+```
+Remove MCP Server
+```
+gemini mcp remove "Gemini Media MCP"
+```
